@@ -127,6 +127,19 @@ header {
         flex-direction: column;
     }
 }
+@media only screen and (max-width: 470px) {
+    .content p {
+        font-size: 0.7rem;
+        
+    }
+    .content h1 {
+        font-size: 0.9rem;
+    }
+    
+    .wrapper .content:hover {
+        opacity: 1;
+    }
+}
 
 footer {
     /* border-top: 5px solid black; */
